@@ -43,4 +43,4 @@
 --
 --  >>> Escriba su codigo a partir de este punto <<<
 --  
-
+SELECT K0, AVG(c21) FROM tbl1 INNER JOIN tbl2 ON tbl2.K1 == tbl1.K1  WHERE c13 > 400 GROUP BY K0;
