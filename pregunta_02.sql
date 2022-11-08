@@ -18,4 +18,4 @@
 --
 --  >>> Escriba su codigo a partir de este punto <<<
 -- 
-COUNT(*)
+SELECT COUNT(*) FROM data;
